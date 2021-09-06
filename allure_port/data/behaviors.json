@@ -1,0 +1,48 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试allure",
+    "children" : [ {
+      "name" : "test_login[200]",
+      "uid" : "88c154024c602599",
+      "parentUid" : "968ae2f13df45eef39ae0625cf7aa82a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630943668579,
+        "stop" : 1630943668579,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "200" ]
+    }, {
+      "name" : "test_login[400]",
+      "uid" : "fe87cb099665071a",
+      "parentUid" : "968ae2f13df45eef39ae0625cf7aa82a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1630943668584,
+        "stop" : 1630943668584,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "400" ]
+    }, {
+      "name" : "test_login[500]",
+      "uid" : "9a8063cecabf638",
+      "parentUid" : "968ae2f13df45eef39ae0625cf7aa82a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1630943668731,
+        "stop" : 1630943668731,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "500" ]
+    } ],
+    "uid" : "968ae2f13df45eef39ae0625cf7aa82a"
+  } ]
+}

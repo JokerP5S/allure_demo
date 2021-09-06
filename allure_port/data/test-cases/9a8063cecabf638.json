@@ -1,0 +1,74 @@
+{
+  "uid" : "9a8063cecabf638",
+  "name" : "test_login[500]",
+  "fullName" : "test_demo1.TestAllure#test_login",
+  "historyId" : "dc1e38ec60080b091e94cf1dbb325b5d",
+  "time" : {
+    "start" : 1630943668731,
+    "stop" : 1630943668731,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 500 == 200",
+  "statusTrace" : "self = <allure_demo.test_demo1.TestAllure object at 0x000002EA1E45C3D0>, code = 500\n\n    @pytest.mark.parametrize(\"code\",[200,400,500])\n    def test_login(self,code):\n>       assert code==200\nE       assert 500 == 200\n\ntest_demo1.py:10: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试allure"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAllure"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-78HURLI7"
+  }, {
+    "name" : "thread",
+    "value" : "27084-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "500"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "df444c8587bacf99",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 500 == 200",
+      "time" : {
+        "start" : 1630943471160,
+        "stop" : 1630943471160,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9a8063cecabf638.json",
+  "parameterValues" : [ "500" ]
+}

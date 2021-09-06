@@ -1,0 +1,60 @@
+{
+  "uid" : "5be785ce1156e0a8",
+  "name" : "test_login[200]",
+  "fullName" : "test_demo1.TestAllure#test_login",
+  "historyId" : "c96d64a44c900c75a507b5c3fa35c26b",
+  "time" : {
+    "start" : 1630943471000,
+    "stop" : 1630943471000,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "测试allure"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAllure"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-78HURLI7"
+  }, {
+    "name" : "thread",
+    "value" : "48272-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "200"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5be785ce1156e0a8.json",
+  "parameterValues" : [ "200" ]
+}
